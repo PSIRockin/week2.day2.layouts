@@ -27,17 +27,29 @@ nav a:hover{
 
 /* PUT YOUR CSS HERE */
 .main_container{
-
+    min-height: 110vh;
 }
 
 .main_content_container{
-
+    min-height: 50vh;
+    display: flex;
+align-self: center;
+justify-content: center;
+background-color: pink;
 }
 
 .main_content{
-
+max-height: 80vh;
+max-width: 110vh;
+overflow: auto;
+color: green;
+background-color: white;
 }
-
+/*
 .flex_padding{
+width: 10%;
+height: 80vh;
+background-color: pink;
 
 }
+*/
